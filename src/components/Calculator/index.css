@@ -1,0 +1,11 @@
+/* #containerCalculator{
+    width: 100%;
+    height: auto;
+}*/
+#calculatorScreen{
+    /* border: 2px solid red; */
+    background-color: rgb(223, 174, 109);
+    /* height:25vh;
+    width: 70vw;
+    margin: 0 auto; */
+} 
