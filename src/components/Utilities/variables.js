@@ -1,4 +1,6 @@
-let moneyValues = {
+import $ from "jquery";
+
+export let moneyValues = {
     'Hundreds': 100.00,
     'Fifties': 50.00,
     'Twenties': 20.00,
@@ -9,9 +11,8 @@ let moneyValues = {
     'Dimes': 0.10,
     'Nickels': 0.05,
     'pennies': 0.01
-}
-
-let cashRegister = {
+};
+export let cashRegister = {
     'Hundreds': 5,
     'Fifties': 5,
     'Twenties': 10,
@@ -23,8 +24,8 @@ let cashRegister = {
     'Nickels': 40,
     'pennies': 40
 };
-let cashRegisterValue = [];
-let userPaymentValues = {
+export let cashRegisterValue = [];
+export let userPaymentValues = {
     'Hundreds': 0,
     'Fifties': 0,
     'Twenties': 0,
@@ -36,6 +37,10 @@ let userPaymentValues = {
     'Nickels': 0,
     'Pennies': 0
 };
-let userPaymentArray = [];
-let userChangeValues = [];
-let userPayementTotal;
+export let userPaymentArray = [];
+export let userChangeValues = [];
+export let userPayementTotal;
+export let totalNumbers = [];
+
+export const moneyUpdated = document.querySelector(".moneyUpdated");
+export const moneyTotal = () => document.querySelector(".moneyTotal");
