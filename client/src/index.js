@@ -6,7 +6,7 @@ import "./assets/sass/main.css"
 import "jquery";
 import "bootstrap";
 
-ReactDOM.render(
+ReactDOM.render(  
   <App />
   ,
   document.getElementById('root')
