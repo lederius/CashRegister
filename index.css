@@ -1,0 +1,42 @@
+.registerContainer{
+    display:flex;
+    border: 2px solid;
+    flex-direction: column;
+}
+.registerScreen{
+    background-color: darkgray;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+/* .registerButtons{
+
+} */
+.moneyInitial{
+  /* border: 2px solid blue; */
+  /* max-width: 30%; */
+
+}
+.moneyUpdated{
+    /* border: 2px solid red;   */
+    /* max-width: 30%; */
+
+}
+.moneyTotal{
+    justify-self: end;
+    /* border: 2px solid yellow;   */
+    /* max-width: 30%; */
+
+}
+.recieptContainer{
+border: 2px solid;
+display : none;
+}
+.add-display{
+    display: block;
+}
+
+.paymentContainer{
+    display: none;
+}
+
