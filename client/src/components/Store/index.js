@@ -13,7 +13,8 @@ export const Store = createStore(combineReducers(
 
      // below allows for the internet terminal to use the redux window tools
     }), {}, compose(
-        applyMiddleware(...middleware),
-        window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+        applyMiddleware(...middleware)
+        // ,
+        // window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
     ));
 

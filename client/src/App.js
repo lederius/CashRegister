@@ -11,8 +11,8 @@ import { Store } from "./components/Store/index"
 
 // import { Welcome } from "./components/Welcome/Welcome"
 import { Calculator } from "./components/Calculator/Calculator";
-import { Header } from "./components/Header/Header";
-import { Footer } from "./components/Footer/Footer";
+// import { Header } from "./components/Header/Header";
+// import { Footer } from "./components/Footer/Footer";
 import { Receipt } from "./components/Receipt/Receipt.jsx";  // why do i need jsx here and nowhere else???
 import { Payment } from "./components/Payment/Payment";
 
@@ -23,9 +23,9 @@ export const App = () => {
       <Provider store={ Store } >
       {/* <Header  /> */}
       {/* <Welcome /> */}
-      {/* <Calculator  /> */}
+      <Calculator  />
       <Payment />
-      {/* <Receipt /> */}
+      <Receipt />
       {/* <Footer /> */}
       </Provider >
     </div>
